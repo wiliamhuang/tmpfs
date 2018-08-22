@@ -203,7 +203,7 @@ int main(int argc, char ** argv)
 	pthread_t thread_Handle_Remote_Access;
 	pthread_t thread_Handle_Open_Close_File_Queue;
 
-	if(argc <= 3)	{
+	if(argc < 3)	{
 		printf("Usage: tmpfs n_partition szFilePath\nQuit\n");
 		exit(1);
 	}
